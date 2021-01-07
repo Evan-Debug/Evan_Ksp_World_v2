@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="Style_2.css" rel="stylesheet">
+<script src="WebsiteScripts.js" defer></script>
+<input type="button" value="Go Back" onclick="HomePage();" />
+<title>Thanks For Visiting</title>
+
+<body>
+</body>
+		<img class="centerImage" src="Juk.jpg">
+</html>

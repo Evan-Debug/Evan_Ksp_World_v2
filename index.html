@@ -1,0 +1,102 @@
+
+<!-- 4 : 15 is a skyscrapper -->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <link rel="icon" href="./logo.png" type="image/png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="script.js" defer></script>
+  <link href="styles.css" rel="stylesheet">
+  <title>Evan's KSP World</title>
+  
+</head>
+<body>
+  <ul class="tabs">
+    <li data-tab-target="#home" class="active tab">Home</li>
+    <li data-tab-target="#screenshots" class="tab">Screenshots</li>
+	<li data-tab-target="#videos" class="tab">Videos</li>
+	<li data-tab-target="#forms" class="tab">Evan Forms</li>
+    <li data-tab-target="#about" class="tab">About</li>
+    <li data-tab-target="#test" class="tab">Wiki</li>
+  </ul>
+
+  <div class="tab-content">
+  
+  
+    <div id="home" data-tab-content class="active">
+      <h1 style="text-align:center" class="BorderRound"  >Home</h1>
+      <h2 style="text-align:center" >This is the home</h2>
+	  <br>
+		<img class="center-corrected" src="logo.png">
+		<br>
+		<br>
+		<br>
+		  <video class="BorderRoundCenter" width="1920" height="1080" controls>
+		  <source  src="Videos\Sequence 01.mp4" type="video/mp4">
+	  <br>
+	  <br>
+	  <br>
+      <h2 style="text-align:center" class="BorderRound" >Station_Spotted.MP4</h2>
+    </div>
+	
+	
+    <div id="screenshots" data-tab-content>
+      <h1 style="text-align:center" >Screenshots</h1>
+      <h2 style="text-align:center">These are Screenshots that I took that I think are beautiful!</h2>
+	  <div>
+		<img class="BorderRoundCenter" src="Screenshots\screenshot_1.jpg">
+		<h2 style="text-align:center" >Accidentally Deorbit!</h2>
+		<h3 style="text-align:center" >This Station was meant to air drop package down to Kerbin, but on the first launch it didnt have enough fuel!</h3>
+		<h3 style="text-align:center" >Vessel Name: O.P.D Station - Orbital Package Delivery Station </h2>
+		
+		<img class="BorderRoundCenter" src="Screenshots\screenshot_2.jpg">
+		<h2 style="text-align:center" >Asteroid Extractor</h2>
+		<h3 style="text-align:center" >Small Station that would extract resources out of asteroids, then go into Kerbin orbit to drop off resources collected.</h3>
+		
+	  </div>
+    </div>
+	
+	<div id="forms" data-tab-content>
+	  <h1 style="text-align:center" class="BorderRound"  >To Enter The Evan Forms Click The Button</h1>
+	  
+	  <br>
+	  <input class="BorderRoundCenter" type="button" id="" value="Submit" onclick="GotoForms();" />
+	  
+	</div>
+	
+    <div id="about" data-tab-content>
+      <h1 style="text-align:center" >About</h1>
+      <h2 style="text-align:center" >This Page is just all about my ksp,</h2>
+      <h2 style="text-align:center" >like Screenshots, Mods, Ideas, Vessel Concepts, etc. </h2>
+    </div>
+	
+	
+	<div id="videos" data-tab-content>
+		<h1 style="text-align:center" >Videos</h1>
+		<h2 style="text-align:center" >Videos I Recorded on KSP</h2>
+		
+		<div> 
+		  <video class="BorderRoundCenter" width="1920" height="1080" controls>
+		  <source  src="Videos\video_1.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		  </video>
+		</div>
+		
+		<h2 style="text-align:center" >The O.P.D Station entering orbit </h2>
+	</div>
+	
+	
+	<div id="test" data-tab-content>
+			<label style="text-align:center" for="pswd">Enter your password: </label>
+			<input type="password" id="pswd">
+			<input type="button" value="Submit" onclick="checkPswd();" />
+    </div>
+	
+  </div>
+
+
+</body>
+</html>
