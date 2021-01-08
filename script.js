@@ -29,5 +29,5 @@ function HomePage() {
  window.location="index.html";
 }
 function GotoForms() {
- window.location="Evan_Forms.html";
+ window.location="Evan_forums.html";
 }

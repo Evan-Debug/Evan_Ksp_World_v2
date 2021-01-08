@@ -91,6 +91,20 @@ body {
   border-style: inset;
   border-width: 0px 0px;
 }
+.BorderRoundCenterButton {
+	
+  display: block;
+  max-width: 80%;
+  max-height: 135vh;
+  padding: 10px;
+  margin: auto;
+  font-size: 20px;
+  border-radius: 50px;
+  border-color: #d1d1d1;
+  
+  border-style: inset;
+  border-width: 0px 0px;
+}
 .BorderRound {
   border-radius: 25px;
   border-color: #000000;
